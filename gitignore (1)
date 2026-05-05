@@ -1,0 +1,59 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Clear notebook outputs before pushing
+# Run: jupyter nbconvert --clear-output --inplace *.ipynb
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Environment Variables (NEVER push secrets!)
+.env
+.env.local
+.env.*.local
+
+# AWS credentials (NEVER push these!)
+.aws/
+aws_credentials.json
+
+# Output files
+outputs/
+output/
+*.pdf
+*.docx
+*.xlsx
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
